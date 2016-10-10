@@ -1,0 +1,121 @@
+---
+title: "#Spreadsheet programs for scientific data"
+author: "Lot's of people"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output: ioslides_presentation
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Welcome to Data Carpentry! 
+This two-day workshop will utilize **ecological data**.
+
+Your instructors are:  
+
++ Person 1  
++ Person 2.  
+
+Tweet us: @datacarpentry
+
+
+## Lessons:  
+
+1. Introduction
+1. Formatting data
+1. Common formatting problems
+1. Dates as data
+1. Quality control
+1. Exporting data
+1. Data Format Caveats
+
+## Code of Conduct
+Data Carpentry is dedicated to providing a harassment-free experience for everyone, regardless of gender, sexual orientation, disability, physical appearance, body size, race, nationality, religion, or choice of text editor. We do not tolerate harassment of participants in any form.
+
+
+## Code of Conduct
+Harassment includes offensive verbal comments related to gender, sexual orientation, disability, physical appearance, body size, race, religion, sexual images in public spaces, deliberate intimidation, stalking, following, harassing photography or recording, sustained disruption of talks or other events, inappropriate physical contact, and unwelcome sexual attention.
+
+
+## Code of Conduct
++ All communication should be appropriate for a professional audience including people of many different backgrounds. Sexual language and imagery is not appropriate for any event or communication.
++ Be kind to others. Do not insult or put down other participants.
++ Behave professionally. Remember that harassment and sexist, racist, or exclusionary jokes are not appropriate.
++ Participants asked to stop any harassing behavior are expected to comply immediately. Participants violating these rules may be asked to leave the event or cease corresponding with the community at the sole discretion of the organizers without a refund of any charge that may have been levied.
+
+
+## Code of Conduct
+Thank you for helping make this a welcoming, friendly community for all.
+
+[Code of Conduct](http://www.datacarpentry.org/code-of-conduct/)
+
+Please speak with an instructor or email Tracy Teal if you have any concerns: tkteal@datacarpentry.org
+
+
+## Requirements
+Data Carpentry's teaching is hands-on, so participants are encouraged to use their own computers to insure the proper setup of tools for an efficient workflow. **These lessons assume no prior knowledge of the skills or tools**, but working through this lesson requires working copies of the software described below. 
+
+To most effectively use these materials, please make sure to install everything before working through this lesson.
+
+
+## Spreadsheet programs
+Spreadsheets are useful for data entry and data organization, and some subsetting and sorting of the data as well as getting an overview of the data. To interact with spreadsheets, we can use:
+
+* [LibreOffice](https://www.libreoffice.org/)
+* [Microsoft Excel](https://products.office.com/en-us/excel)
+* [gnumeric](http://www.gnumeric.org/)
+* [OpenOffice](https://www.openoffice.org/)
+
+Commands differ slightly between programs, but the general ideas for thinking about spreadsheets is the same.
+
+
+## Windows, Mac OS X, and Linux
+* **Download the Installer**
+
+Install LibreOffice by going to the [installation page](https://www.libreoffice.org/download/libreoffice-fresh/). The version for your operating system should automatically be selected. Click **Download Version 5.2.1**. You will go to a page that asks about a donation, but you don't need to make one. Your download should begin automatically.
+
+* **Install LibreOffice**
+
+Once the installer is downloaded, double click on it and it should install.
+
+
+## Linux
+
+* You can use the **Synaptic Package Manager** to install *libreoffice* 
+* Or open the terminal and use the command:  
+&nbsp;&nbsp;&nbsp;&nbsp; *sudo apt-get install libreoffice*
+
+
+## The importance of data
+
+Good **data organization** is critical for a successful research project. Spreadsheets can play an important role in research because they allow for easy data entry.
+
+
+## Lesson outline
+In this lesson we will cover:
+
+- Good data entry practices
+- Avoid common formatting mistakes
+- Quality control and manipulation
+- Exporting data from spreadsheets
+
+In short, **best practices** for handling data.
+
+
+## This lesson will not teach you
+
+* How to do *statistics* in a spreadsheet
+* How to do *plotting* in a spreadsheet
+* How to *write code* in a spreadsheet
+
+
+## Why we aren't teaching data analsysis in spreadsheets
+
+* Data analysis in spreadsheets usually requires **a lot of manual work**. If you want to change a parameter or run an analyses with a new dataset, you usually have to redo everything by hand.
+
+* It is also difficult to **track** or **reproduce** analyses done in spreadsheet programs. This can lead to problems when tracking down errors or providing details of your analysis. The influential [Reinhart-Rogoff paper](http://retractionwatch.com/2013/04/18/influential-reinhart-rogoff-economics-paper-suffers-database-error/) contained multiple errors that led to erroneous conclusions.
+
+* There are many [instances](https://oit.utk.edu/research/documentation/Documents/ExcelStatProbs.pdf) of Excel generating arithmetic errors 
+
+
